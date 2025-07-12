@@ -15,29 +15,29 @@
 </p>
 
 <p align="center">
-  Este repositório tem como objetivo principal armazenar e organizar projetos e tutoriais desenvolvidos por <b>yokino-dev</b>. Aqui você encontrará códigos, comandos e guias úteis para referência futura e aprendizado contínuo.
+  Este repositório tem como principal objetivo apresentar meu trabalho, reunindo projetos, tutoriais e experimentos desenvolvidos por <b>yokino-dev</b>. Aqui você encontra exemplos práticos, dicas e soluções que refletem minha experiência e evolução na área de tecnologia.
 </p>
 
 ---
 
-## Descrição
+## Sobre o Repositório
 
-Este espaço serve para centralizar materiais diversos, com foco em:
+Este espaço serve como um portfólio técnico e fonte de consulta, incluindo:
 
-- Scripts e comandos em Python para automação e tarefas do dia a dia.
-- Tutoriais sobre ferramentas, comandos Linux e funções específicas do sistema.
-- Instruções sobre o uso do Git e exemplos de comandos para versionamento de código.
-- Referências e exemplos práticos para consultas rápidas.
-- Organização e armazenamento seguro dos meus arquivos e projetos.
+- Projetos próprios, scripts e automações desenvolvidos principalmente em Python.
+- Tutoriais e guias sobre ferramentas, comandos Linux e programação.
+- Dicas e exemplos de uso do Git para versionamento de código.
+- Materiais de referência para aprendizado contínuo.
+- Organização dos meus arquivos e projetos para facilitar a apresentação do meu trabalho.
 
-## Estrutura do Repositório
+## Estrutura
 
-O repositório está organizado por categorias e temas, facilitando a navegação e a busca por conteúdos específicos. Cada pasta contém arquivos, exemplos e explicações para consulta rápida e eficiente.
+O repositório está organizado por temas e categorias, facilitando a navegação e a busca por conteúdos específicos. Cada pasta contém arquivos, exemplos e explicações para consulta e demonstração.
 
 ## Como Contribuir
 
-Este repositório é de uso pessoal, mas sugestões são sempre bem-vindas. Fique à vontade para abrir issues com ideias de novos tutoriais ou melhorias na organização.
+Este repositório é voltado para meu uso e portfólio pessoal, mas sugestões, correções e ideias de melhoria são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 ## Licença
 
-Este projeto está sob a licença MIT.
+Este projeto está licenciado sob a Licença GPL-3.0. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
