@@ -1,86 +1,89 @@
-cat > README.md << 'EOF'
 # 💻 hello-world
 
-> Um espaço para compartilhar códigos, ideias e aprendizados que podem ser úteis para você ou para quem estiver começando no mundo da programação.
+> i going to post some information and codes that may be useful for someone reason
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Linguagem-Python-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Contribuições-Bem-vindas-green?style=for-the-badge"/>
 </p>
 
 ---
 
-## 📌 O que você vai encontrar aqui
+## 📌 Funcionalidades
 
-- ✅ **Códigos práticos e reutilizáveis**  
+- [x] **Compartilhamento de códigos úteis**  
       ![Exemplos](https://img.shields.io/badge/-Exemplos-3366cc?style=flat-square)
-- ✅ **Dicas úteis para o dia a dia de desenvolvimento**  
+- [x] **Informações relevantes para desenvolvedores**  
       ![Dicas](https://img.shields.io/badge/-Dicas-ffcc00?style=flat-square)
-- 🚧 **Documentações e tutoriais simples de entender**  
+- [ ] **Documentação detalhada**  
       ![Em Breve](https://img.shields.io/badge/-Em%20Breve-ff6666?style=flat-square)
 
 ---
 
-## 🚀 Como começar
+## 🚀 Como executar o projeto
 
-\`\`\`bash
+```bash
 # Clone este repositório
 git clone https://github.com/yokino-dev/hello-world.git
 
 # Acesse a pasta do projeto
 cd hello-world
 
-# Execute o script desejado
+# Execute o(s) script(s) desejado(s)
 python nome_do_arquivo.py
-\`\`\`
+```
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias Utilizadas
 
 - ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 ---
 
-## 🧠 Por que esse repositório existe?
+## 🧠 Contexto e Motivação
 
-A intenção é simples: reunir conteúdos úteis — desde pequenos scripts até soluções para problemas comuns — tudo em um só lugar.  
-É um espaço para praticar, aprender, compartilhar e, quem sabe, ajudar outras pessoas no processo. Toda ideia nasce pequena, e este repositório é um bom começo. 😉
-
----
-
-## 🙌 Quer contribuir?
-
-Você é muito bem-vindo(a)! Toda sugestão, melhoria ou nova ideia faz a diferença.
-
-1. Faça um **fork** do repositório  
-2. Crie uma nova branch: \`git checkout -b minha-feature\`  
-3. Commit suas mudanças: \`git commit -m 'feat: adiciona minha nova feature'\`  
-4. Faça push: \`git push origin minha-feature\`  
-5. Abra um **Pull Request**
+Este repositório foi criado com o objetivo de compartilhar códigos, dicas e informações que possam ser úteis para outros desenvolvedores ou para quem está começando na área.  
+A ideia é centralizar soluções e aprendizados práticos, tornando o desenvolvimento mais acessível e colaborativo.
 
 ---
 
-## 📁 Estrutura do projeto
+## 🙌 Como Contribuir
 
-\`\`\`plaintext
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests.
+
+1. Faça um fork deste repositório
+2. Crie uma branch com sua feature: `git checkout -b minha-feature`
+3. Commit suas alterações: `git commit -m 'feat: Minha nova feature'`
+4. Faça um push para a sua branch: `git push origin minha-feature`
+5. Abra um Pull Request
+
+---
+
+## 📁 Estrutura de Pastas
+
+```plaintext
 hello-world/
 ├── README.md
-└── scripts/
-    ├── exemplo1.py
-    └── exemplo2.py
-\`\`\`
-
-<sub>A estrutura pode mudar conforme o projeto cresce.</sub>
-
----
-
-## 📢 Fale comigo
-
-Se tiver alguma dúvida, sugestão ou quiser trocar uma ideia:
-
-- 💬 [github.com/yokino-dev](https://github.com/yokino-dev)
+├── scripts/
+│   ├── exemplo1.py
+│   └── exemplo2.py
+├── docs/
+│   └── guia_rapido.md
+└── assets/
+    └── logo.png
+```
+<sub>A estrutura acima é um exemplo organizado, adapte conforme seu projeto evoluir.</sub>
 
 ---
 
-> ⭐ Se esse projeto foi útil para você, deixe uma estrela. Isso ajuda muito e motiva a continuar!
+## 📢 Contato
+
+Entre em contato para sugestões, dúvidas ou parcerias:
+
+- [Perfil GitHub](https://github.com/yokino-dev)
+
+---
+
+> ⭐ Se este projeto te ajudou, deixe uma estrela!
