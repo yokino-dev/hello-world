@@ -31,9 +31,6 @@ git clone https://github.com/yokino-dev/hello-world.git
 cd hello-world
 
 # Execute o(s) script(s) desejado(s)
-python nome_do_arquivo.py
-```
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -46,18 +43,6 @@ python nome_do_arquivo.py
 
 Este repositório foi criado com o objetivo de compartilhar códigos, dicas e informações que possam ser úteis para outros desenvolvedores ou para quem está começando na área.  
 A ideia é centralizar soluções e aprendizados práticos, tornando o desenvolvimento mais acessível e colaborativo.
-
----
-
-## 🙌 Como Contribuir
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests.
-
-1. Faça um fork deste repositório
-2. Crie uma branch com sua feature: `git checkout -b minha-feature`
-3. Commit suas alterações: `git commit -m 'feat: Minha nova feature'`
-4. Faça um push para a sua branch: `git push origin minha-feature`
-5. Abra um Pull Request
 
 ---
 
