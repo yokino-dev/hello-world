@@ -45,7 +45,7 @@ python nome_do_arquivo.py
 ## 🧠 Por que esse repositório existe?
 
 A intenção é simples: reunir conteúdos úteis — desde pequenos scripts até soluções para problemas comuns — tudo em um só lugar.  
-É um espaço para praticar, aprender, compartilhar e, quem sabe, ajudar outras pessoas no processo
+É um espaço para praticar, aprender, compartilhar e, quem sabe, ajudar outras pessoas no processo. Toda ideia nasce pequena, e este repositório é um bom começo. 😉
 
 ---
 
@@ -66,16 +66,12 @@ Você é muito bem-vindo(a)! Toda sugestão, melhoria ou nova ideia faz a difere
 \`\`\`plaintext
 hello-world/
 ├── README.md
-├── scripts/
-│   ├── exemplo1.py
-│   └── exemplo2.py
-├── docs/
-│   └── guia_rapido.md
-└── assets/
-    └── logo.png
+└── scripts/
+    ├── exemplo1.py
+    └── exemplo2.py
 \`\`\`
 
-<sub>Essa é uma estrutura inicial e pode crescer à medida que o projeto evoluir.</sub>
+<sub>A estrutura pode mudar conforme o projeto cresce.</sub>
 
 ---
 
@@ -88,4 +84,3 @@ Se tiver alguma dúvida, sugestão ou quiser trocar uma ideia:
 ---
 
 > ⭐ Se esse projeto foi útil para você, deixe uma estrela. Isso ajuda muito e motiva a continuar!
-EOF
