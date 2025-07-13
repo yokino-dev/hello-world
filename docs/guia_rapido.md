@@ -1,0 +1,1 @@
+guia_rapido.md
