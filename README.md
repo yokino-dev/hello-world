@@ -1,6 +1,6 @@
 # 💻 hello-world
 
-> Seja muito bem-vindo(a)!
+> i going to post some information and codes that may be useful for someone reason
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge"/>
@@ -31,6 +31,9 @@ git clone https://github.com/yokino-dev/hello-world.git
 cd hello-world
 
 # Execute o(s) script(s) desejado(s)
+python nome_do_arquivo.py
+```
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -46,8 +49,21 @@ A ideia é centralizar soluções e aprendizados práticos, tornando o desenvolv
 
 ---
 
+## 🙌 Como Contribuir
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests.
+
+1. Faça um fork deste repositório
+2. Crie uma branch com sua feature: `git checkout -b minha-feature`
+3. Commit suas alterações: `git commit -m 'feat: Minha nova feature'`
+4. Faça um push para a sua branch: `git push origin minha-feature`
+5. Abra um Pull Request
+
+---
+
 ## 📁 Estrutura de Pastas
 
+```plaintext
 hello-world/
 ├── README.md
 ├── scripts/
@@ -57,7 +73,7 @@ hello-world/
 │   └── guia_rapido.md
 └── assets/
     └── logo.png
-
+```
 <sub>A estrutura acima é um exemplo organizado, adapte conforme seu projeto evoluir.</sub>
 
 ---
