@@ -9,6 +9,7 @@ import time
 # no momento apenas diretamente pelo terminal, depois aplicando interface grafica, começando pela
 # mais simples, Tkinter, nativa do Python.
 #
+# COMENTADO por neo-dev
 # Este código tambem aborda o uso de classes e alguns métodos simples, depois dar uma olhadinha na documentação
 
 # Editor de Código: helix - Konsole
@@ -19,7 +20,11 @@ def limpar_tela():
     else:
         os.system('clear')  # Linux/Mac
 
+#COMENTADO por neo-dev
+#isso aqui me deu a motivação para buscar uma solução 
+
 class Calculadora:
+    #COMENTADO por neo-dev
     #sua calculadora funciona como um conjunto de funções simples, mas poderia haver o A e o B dentro da sua classe,
     # como métodos privados, e depois usar os métodos publicos como um maneira de interagir com a Calculadora,
     # transformando-a em um objeto propriamente dito
@@ -42,7 +47,7 @@ class Calculadora:
         else:
             return "Valor invalido"
 
-
+# tudo o que vem abaixo, deveria estar em algum tipo de função principal, para boas práticas
 print ("Bem vindo a calculadora simples \n feita em Python!")
 time.sleep(4)
 limpar_tela()
@@ -52,6 +57,7 @@ while True:
         a = int(input("Escolha um valor para a:"))
         b = int(input("Escolha um valor para b:"))
 
+        #COMENTADO por neo-dev
         # aqui deveria aparecer um construtor, que mostra que a classe foi inicializada corretamente 
 
         calc = Calculadora()
@@ -61,6 +67,10 @@ while True:
         print (calc.dividir(a,b))
 
         continua = input("deseja escolher outro valor?:S/n[ ]").lower() .strip()
+
+        #COMENTADO por neo-dev
+        #ideia, porque não fazer dois dicionários reutilizáveis, um que contem respostas positivas e respostas negativas,
+        # e depois ignorar as demais respostas com um else, tudo dentro de um loop de validação?
 
         if continua == "" or continua in ["s","y"]:
           print ("Reiniciando a calculadora simples")
