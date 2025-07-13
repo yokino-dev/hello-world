@@ -8,6 +8,8 @@ import time
 # pretendo melhorar futuramente pra torna-lo uma calculadora cientifica de facil uso
 # no momento apenas diretamente pelo terminal, depois aplicando interface grafica, começando pela
 # mais simples, Tkinter, nativa do Python.
+#
+# Este código tambem aborda o uso de classes e alguns métodos simples, depois dar uma olhadinha na documentação
 
 # Editor de Código: helix - Konsole
 
@@ -18,6 +20,9 @@ def limpar_tela():
         os.system('clear')  # Linux/Mac
 
 class Calculadora:
+    #sua calculadora funciona como um conjunto de funções simples, mas poderia haver o A e o B dentro da sua classe,
+    # como métodos privados, e depois usar os métodos publicos como um maneira de interagir com a Calculadora,
+    # transformando-a em um objeto propriamente dito
     def soma (self,a,b):
         c = a+b
         return c
@@ -46,6 +51,8 @@ while True:
      try:
         a = int(input("Escolha um valor para a:"))
         b = int(input("Escolha um valor para b:"))
+
+        # aqui deveria aparecer um construtor, que mostra que a classe foi inicializada corretamente 
 
         calc = Calculadora()
         print (calc.soma(a,b))
