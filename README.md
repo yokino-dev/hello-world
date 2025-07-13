@@ -48,7 +48,6 @@ A ideia é centralizar soluções e aprendizados práticos, tornando o desenvolv
 
 ## 📁 Estrutura de Pastas
 
-```plaintext
 hello-world/
 ├── README.md
 ├── scripts/
@@ -58,7 +57,7 @@ hello-world/
 │   └── guia_rapido.md
 └── assets/
     └── logo.png
-```
+
 <sub>A estrutura acima é um exemplo organizado, adapte conforme seu projeto evoluir.</sub>
 
 ---
