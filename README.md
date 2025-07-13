@@ -6,7 +6,6 @@ cat > README.md << 'EOF'
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Linguagem-Python-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Contribuições-Bem--vindas-green?style=for-the-badge"/>
 </p>
 
 ---
