@@ -159,6 +159,7 @@ class Calculadora:
     def logaritmo(self, base=10):
         while True:
             try:
+                print("6. Logaritmo: \n O logaritmo responde a pergunta: A qual potência devo elevar a base para obter este número?\n Fórmula: resultado = log(número, base) \n Fórmula: resultado = log(número, base) \n    Exemplo: log10(100) = 2, pois 10^2 = 100 ")
                 self.a = float(input("Escolha um valor para descobrir o logaritmo: "))
                 if self.a <= 0:
                     print("Erro: Logaritmo aceita apenas número positivo.")
@@ -182,6 +183,7 @@ class Calculadora:
     def seno(self):
         while True:
             try:
+                print("7. Seno: \n O seno de um ângulo em um triângulo retângulo é a razão entre o cateto oposto e a hipotenusa. \n    Para cálculos, convertemos graus para radianos (rad = graus * π / 180). \n Fórmula: resultado = sin(radianos) \n    Exemplo: seno de 30° é 0.5, pois corresponde à metade da hipotenusa.")
                 self.a = float(input("Digite o ângulo em graus para calcular o seno: "))
                 rad = math.radians(self.a)
                 resultado = math.sin(rad)
@@ -201,6 +203,7 @@ class Calculadora:
     def cosseno(self):
         while True:
             try:
+                print("8. Cosseno:  O cosseno é a razão entre o cateto adjacente e a hipotenusa em um triângulo retângulo.\n    Também calculado em radianos. \n Fórmula: resultado = cos(radianos) \n  Exemplo: cosseno de 60° é 0.5. \n ")
                 self.a = float(input("Digite o ângulo em graus para calcular o cosseno: "))
                 rad = math.radians(self.a)
                 resultado = math.cos(rad)
@@ -220,10 +223,9 @@ class Calculadora:
     def tangente(self):
         while True:
             try:
+                print("9. Tangente: A tangente é a razão entre o seno e o cosseno de um ângulo. \n Fórmula: resultado = tan(radianos) \n  Atenção: tangente é indefinida para ângulos onde o cosseno é zero (90°, 270°, ...). \n    Exemplo: tangente de 45° é 1, pois seno e cosseno são iguais. \n ")
                 self.a = float(input("Digite o ângulo em graus para calcular a tangente: "))
                 rad = math.radians(self.a)
-
-                # Verifica se está próximo de 90°, 270°, etc., onde a tangente tende ao infinito
                 if math.isclose(math.cos(rad), 0, abs_tol=1e-9):
                     print("Erro: Tangente indefinida para este ângulo.")
                 else:
@@ -245,6 +247,7 @@ class Calculadora:
     def area_circulo(self):
         while True:
             try:
+                print("10.Área do Circulo: A área do círculo é a medida da superfície interna delimitada pela circunferência. \n Fórmula: área = π * raio^2 \n Restrição: o raio deve ser positivo. \n Exemplo: Um círculo com raio 3 tem área ≈ 3.1416 * 3^2 = 28.27 unidades quadradas.")
                 self.a = float(input("Digite o raio do círculo: "))
                 if self.a < 0:
                     print("Erro: O raio não pode ser negativo.")
