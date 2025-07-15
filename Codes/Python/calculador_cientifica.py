@@ -1,4 +1,5 @@
 import math
+import timer
 
 # Funções matemáticas úteis para calculadora científica:
 
@@ -21,6 +22,10 @@ import math
 # Exemplo:
 # Para calcular o seno de 30 graus, converta para radianos antes:
 # math.sin(math.radians(30))  -> 0.5
+
+def limpar_tela():
+    os.system('cls' if os.name == 'nt' else 'clear')
+ 
 
 class calculadora:
     def __init__(self,a = 0,b = 0, valor=0):
@@ -81,21 +86,62 @@ class calculadora:
                     break
 
     def divisao(self):
+            while True:
+                    try:
+                        self.a = int(input("Escolha um número:\n"))
+                        self.b = int(input("Escolha outro número:\n"))
+                    
+                        if self.b == 0:
+                            print("Não é possível dividir por zero.")
+                            continue
 
-     self.a = int(input("Escolha um número:\n"))
-     self.b = int(input("Escolha outro número:\n "))
-     if self.a or self.b == 0:
-        print("Não é possivel dividir por zero")
-     elif isinstance(self.a, int) and isinstance(self.b, int):
-            print ("Digite um Número valido")
-     else:
-        resultado = self.a / self.b
-        print (f"o valor da sua divisão é {resultado}")
-        
-        
-    def potencia(self,expoente):
-        self.valor = math.pow(self.valor,expoente)
-        while True:
-            try:
-                
-# ESTÁ SENDO ESCRITO!!! ATUALIZAÇÕES EM BREVE!!!
+                        resultado = self.a / self.b
+                        print(f"O valor da sua divisão é {resultado:.2f}")
+                        timer.sleep(2)
+
+                        resposta = input("Você gostaria de fazer uma nova divisão? [S/N] ").strip().lower()
+                        if resposta not in ['s', 'sim', '']:
+                            break
+
+                    except ValueError:
+                        print("Digite um número válido.")
+    def raiz_quadrada(self):
+          while True:
+                  try:
+                      self.a = int(input("Escolha um valor para descobrir a raiz quadrada"))
+                      if self.a < 0:
+                              return 'Erro: Raiz quadrada de número negativo não definida'
+                              continue
+                      else:
+                          return f'{math.sqrt(self.a):.2f}'
+                          timer.sleep(2)
+                          limpar_tela()
+                          resposta = input("Deseja descobrir outro valor? [S/N]")
+                          if resposta not in ['s', 'sim', '']:
+                                  break
+                  except ValueError:
+                      print ("DIgite um valor válido")
+
+     def logaritmo(self, base=10):
+                while True:
+                    try:
+                        self.a = float(input("Escolha um valor para descobrir o logaritmo: "))
+                        if self.a <= 0:
+                            print("Erro: Logaritmo aceita apenas número positivo.")
+                            time.sleep(2)
+                            limpar_tela()
+                            continue
+                        resultado = math.log(self.a, base)
+                        print(f"Logaritmo de {self.a} na base {base} é {resultado:.2f}")
+                        time.sleep(2)
+                        limpar_tela()
+                        resposta = input("Deseja descobrir outro valor? [S/N] ").strip().lower()
+                        if resposta not in ['s', 'sim', '']:
+                                break
+                                limpar_tela()
+                    except ValueError:
+                        print("Por favor, digite um número válido.")
+                        time.sleep(2)
+                        limpar_tela()
+    
+                                               
