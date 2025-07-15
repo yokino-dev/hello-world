@@ -1,6 +1,5 @@
 # 💻 hello-world
 
-> i going to post some information and codes that may be useful for someone reason
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge"/>
