@@ -42,8 +42,8 @@ class Calculadora:
 
 
     def soma(self):
-        self.a = int(input("Escolha um número:\n"))
-        self.b = int(input("Escolha outro número:\n"))
+        self.a = float(input("Escolha um número:\n"))
+        self.b = float(input("Escolha outro número:\n"))
         resultado = self.a + self.b
         print(f"O resultado da soma é {resultado}")
 
@@ -51,7 +51,7 @@ class Calculadora:
             resposta = input("Você deseja continuar a soma a partir do valor obtido? [S/n] ").strip().lower()
             if resposta in ['', 's']:
                 try:
-                    novo_valor = int(input("Digite o valor para acrescentar\n"))
+                    novo_valor = float(input("Digite o valor para acrescentar\n"))
                 except ValueError:
                     print("Digite um valor válido")
                     continue
@@ -65,13 +65,13 @@ class Calculadora:
 
 
     def sub(self):
-        self.a = int(input("Escolha um número:\n"))
-        self.b = int(input("Escolha outro número:\n"))
+        self.a = float(input("Escolha um número:\n"))
+        self.b = float(input("Escolha outro número:\n"))
         resultado = self.a - self.b
         print(f"O resultado da subtração é {resultado}")
 
         while True:
-            resposta = input("Você deseja continuar a subtração a partir do valor obtido? [S/n] ").strip().lower()
+            resposta = float("Você deseja continuar a subtração a partir do valor obtido? [S/n] ").strip().lower()
             if resposta in ['', 's']:
                 try:
                     novo_valor = int(input("Digite o valor para subtrair\n"))
@@ -113,8 +113,8 @@ class Calculadora:
     def divisao(self):
         while True:
             try:
-                self.a = int(input("Escolha um número:\n"))
-                self.b = int(input("Escolha outro número:\n"))
+                self.a = float(input("Escolha um número:\n"))
+                self.b = float(input("Escolha outro número:\n"))
 
                 if self.b == 0:
                     print("Não é possível dividir por zero.")
